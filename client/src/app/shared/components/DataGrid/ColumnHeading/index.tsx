@@ -20,6 +20,7 @@ const useStyles = createUseStyles({
     textAlign: "center",
     padding: "0.5rem",
     borderBottom: "1px solid rgb(224, 224, 224)",
+    background: "lightyellow",
   },
   columnHeadingText: {
     display: "flex",
@@ -28,7 +29,6 @@ const useStyles = createUseStyles({
   },
   fixedHeader: {
     position: "sticky",
-    background: "lightyellow",
     top: "0px"
   }
 });
