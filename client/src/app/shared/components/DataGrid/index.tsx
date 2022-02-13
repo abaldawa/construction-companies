@@ -51,10 +51,8 @@ export type VisibleColumns = {[key: string]: string};
 
 const useStyles = createUseStyles({
   root: {
-    display: "flex",
-    justifyContent: "center",
-    height: "100vh",
-    alignItems: "center"
+    display: "inline-block",
+    position: "relative"
   },
   dataGrid: {
     display: "grid",
@@ -63,7 +61,6 @@ const useStyles = createUseStyles({
     minWidth: "900px",
     gridTemplateColumns: (props: DataGridStyleProps) => props.gridColumnsWidth.join(" "),
     gridAutoRows: "max-content",
-    // justifyContent: "center",
     border: "1px solid rgb(224, 224, 224)",
     borderRadius: "10px",
     overflow: "scroll",
@@ -123,33 +120,31 @@ export const DataGrid = <RowData,>(props: PropsWithChildren<DataGridProps<RowDat
 
   return (
     <div className={classes.root}>
-      <div style={{position: "relative"}}>
-        <GridToolbar
-          columns={columnNames}
-          totalActiveFilters={totalFilters}
-          clearActiveFilters={clearFilters}
-          selectedColumns={visibleColumns}
-          onColumnShowOrHideHandler={onColumnShowOrHideHandler}
+      <GridToolbar
+        columns={columnNames}
+        totalActiveFilters={totalFilters}
+        clearActiveFilters={clearFilters}
+        selectedColumns={visibleColumns}
+        onColumnShowOrHideHandler={onColumnShowOrHideHandler}
+      />
+      <div className={classes.dataGrid}>
+        <ColumnHeadings
+          columns={columns}
+          visibleColumns={visibleColumns}
+          fixedHeaderWhenScroll={fixedHeaderWhenScroll}
+          activeColumnSorter={activeColumnSorter}
+          onSortChange={onSortChange}
+          onFilterChange={onFilterChange}
         />
-        <div className={classes.dataGrid}>
-          <ColumnHeadings
-            columns={columns}
-            visibleColumns={visibleColumns}
-            fixedHeaderWhenScroll={fixedHeaderWhenScroll}
-            activeColumnSorter={activeColumnSorter}
-            onSortChange={onSortChange}
-            onFilterChange={onFilterChange}
-          />
-          <Rows
-            rows={sortedRows}
-            visibleColumns={visibleColumns}
-            getRowId={getRowId}
-            columns={columns}
-          />
-        </div>
-        <GridResultInfo currentlyShowing={sortedRows.length} totalRows={rows.length}/>
-        {loading && <div className={classes.loading}>Loading...</div>}
+        <Rows
+          rows={sortedRows}
+          visibleColumns={visibleColumns}
+          getRowId={getRowId}
+          columns={columns}
+        />
       </div>
+      <GridResultInfo currentlyShowing={sortedRows.length} totalRows={rows.length}/>
+      {loading && <div className={classes.loading}>Loading...</div>}
     </div>
   );
 };
