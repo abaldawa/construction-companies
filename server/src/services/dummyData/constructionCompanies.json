@@ -1,0 +1,2330 @@
+[
+  {
+    "companyName": "Vinci",
+    "country": "France",
+    "companyLogo": "/img/Vinci.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇫🇷",
+    "id": "25164b62-f16d-469b-9481-3100b3ca633f"
+  },
+  {
+    "companyName": "D. R. Horton",
+    "country": "United States",
+    "companyLogo": "/img/D. R. Horton.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇺🇸",
+    "id": "b01671fb-cd70-4803-acb5-cc247828fbc0"
+  },
+  {
+    "companyName": "Lennar",
+    "country": "United States",
+    "companyLogo": "/img/Lennar.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇺🇸",
+    "id": "66f468dd-ad3f-447a-b2b1-3cdaedcf0dd1"
+  },
+  {
+    "companyName": "China Railway Group",
+    "country": "China",
+    "companyLogo": "/img/China Railway Group.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇨🇳",
+    "id": "799bf938-e37e-4048-aa12-953b292ab84d"
+  },
+  {
+    "companyName": "Daiwa House",
+    "country": "Japan",
+    "companyLogo": "/img/Daiwa House.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇯🇵",
+    "id": "f763f72f-6f21-4139-a3ae-326183134f4b"
+  },
+  {
+    "companyName": "NVR",
+    "country": "United States",
+    "companyLogo": "/img/NVR.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "4d0ebe16-56b5-4e50-adeb-e4e88def7bc2"
+  },
+  {
+    "companyName": "China Railway Construction",
+    "country": "China",
+    "companyLogo": "/img/China Railway Construction.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇨🇳",
+    "id": "e063ad64-6297-4814-9814-bc84b9a96152"
+  },
+  {
+    "companyName": "Bouygues",
+    "country": "France",
+    "companyLogo": "/img/Bouygues.webp",
+    "speciality": "Transportation",
+    "countryLogo": "🇫🇷",
+    "id": "003a5433-9a26-4b69-9a78-7443d929d804"
+  },
+  {
+    "companyName": "Sekisui House",
+    "country": "Japan",
+    "companyLogo": "/img/Sekisui House.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇯🇵",
+    "id": "5d8e04df-be0b-4a80-b46d-e9dc12357a4f"
+  },
+  {
+    "companyName": "Skanska",
+    "country": "Sweden",
+    "companyLogo": "/img/Skanska.webp",
+    "speciality": "Transportation",
+    "countryLogo": "🇸🇪",
+    "id": "e9fa31c9-9dcc-4e7a-bda0-3ace693f3f25"
+  },
+  {
+    "companyName": "Eiffage",
+    "country": "France",
+    "companyLogo": "/img/Eiffage.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇫🇷",
+    "id": "70c2c582-2eb9-4fc1-ac8e-18b31851654e"
+  },
+  {
+    "companyName": "Acciona",
+    "country": "Spain",
+    "companyLogo": "/img/Acciona.webp",
+    "speciality": "Transportation",
+    "countryLogo": "🇪🇸",
+    "id": "44bec790-79c1-4809-ab35-4611b8351b4b"
+  },
+  {
+    "companyName": "Procore",
+    "country": "United States",
+    "companyLogo": "/img/Procore.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇺🇸",
+    "id": "d5986cd2-ccc2-479f-ae21-b0017528446b"
+  },
+  {
+    "companyName": "Daito Trust Construction",
+    "country": "Japan",
+    "companyLogo": "/img/Daito Trust Construction.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇯🇵",
+    "id": "8eaf3456-4a2c-40e3-b4c3-5a1135ebe4b5"
+  },
+  {
+    "companyName": "Kajima",
+    "country": "Japan",
+    "companyLogo": "/img/Kajima.webp",
+    "speciality": "Transportation",
+    "countryLogo": "🇯🇵",
+    "id": "1863e79e-5b6d-43fc-89a4-0d242ad35c8a"
+  },
+  {
+    "companyName": "Obayashi",
+    "country": "Japan",
+    "companyLogo": "/img/Obayashi.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇯🇵",
+    "id": "88ee7bc1-cd10-42a0-925b-7f578387131f"
+  },
+  {
+    "companyName": "Hochtief",
+    "country": "Germany",
+    "companyLogo": "/img/Hochtief.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇩🇪",
+    "id": "45fd6e7c-4e5c-40d1-a74d-94a390e0e7da"
+  },
+  {
+    "companyName": "Fomento de Construcciones y Contratas",
+    "country": "Spain",
+    "companyLogo": "/img/Fomento de Construcciones y Contratas.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇪🇸",
+    "id": "8f4abbe6-2457-440a-94d8-66bb0d3f6de7"
+  },
+  {
+    "companyName": "Strabag",
+    "country": "Austria",
+    "companyLogo": "/img/Strabag.webp",
+    "speciality": "Transportation",
+    "countryLogo": "🇦🇹",
+    "id": "85771468-569f-4baa-95a3-692a0e41113e"
+  },
+  {
+    "companyName": "Skyline Champion",
+    "country": "United States",
+    "companyLogo": "/img/Skyline Champion.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "158177e0-f31c-48ff-8c49-f878e0100503"
+  },
+  {
+    "companyName": "Fletcher Building",
+    "country": "New Zealand",
+    "companyLogo": "/img/Fletcher Building.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇳🇿",
+    "id": "fdbc207b-1c53-4915-9ab3-48c4f9692b27"
+  },
+  {
+    "companyName": "KB Home",
+    "country": "United States",
+    "companyLogo": "/img/KB Home.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "460ebab8-e533-4519-802c-bb916bbe705d"
+  },
+  {
+    "companyName": "Shikun &amp; Binui",
+    "country": "Israel",
+    "companyLogo": "/img/Shikun &amp; Binui.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇮🇱",
+    "id": "f37d28de-fb5a-4819-977a-eca9c4b27f09"
+  },
+  {
+    "companyName": "TRI Pointe Group",
+    "country": "United States",
+    "companyLogo": "/img/TRI Pointe Group.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇺🇸",
+    "id": "04ef44e1-77a8-49a1-837d-3a7a634241d1"
+  },
+  {
+    "companyName": "Century Communities",
+    "country": "United States",
+    "companyLogo": "/img/Century Communities.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "60fe3f98-9b7f-41ae-9baf-201ba0d70b44"
+  },
+  {
+    "companyName": "Veidekke",
+    "country": "Norway",
+    "companyLogo": "/img/Veidekke.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇳🇴",
+    "id": "df92a3ab-afe1-4e1a-ad52-358fea0ec9ab"
+  },
+  {
+    "companyName": "KEC International",
+    "country": "India",
+    "companyLogo": "/img/KEC International.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇮🇳",
+    "id": "3f977137-024c-4e2a-8f82-fa6dafbeb4b1"
+  },
+  {
+    "companyName": "Granite Construction",
+    "country": "United States",
+    "companyLogo": "/img/Granite Construction.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇺🇸",
+    "id": "4ce9bf37-08cd-43ec-800e-b3e601ac9ff0"
+  },
+  {
+    "companyName": "MYR Group",
+    "country": "United States",
+    "companyLogo": "/img/MYR Group.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇺🇸",
+    "id": "360385d6-f2ba-4597-af33-4fc5ca1333ad"
+  },
+  {
+    "companyName": "M/I Homes",
+    "country": "United States",
+    "companyLogo": "/img/MI Homes.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇺🇸",
+    "id": "cd5771fc-f86a-43f9-98f1-e32a793dffd2"
+  },
+  {
+    "companyName": "Primoris Services Corporation",
+    "country": "United States",
+    "companyLogo": "/img/Primoris Services Corporation.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "b5de7b76-9d1d-49e0-a30f-eeb33c258c33"
+  },
+  {
+    "companyName": "Construction Partners",
+    "country": "United States",
+    "companyLogo": "/img/Construction Partners.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇺🇸",
+    "id": "0f9cad3b-4188-4714-a87b-8ab477d872e3"
+  },
+  {
+    "companyName": "Metrovacesa",
+    "country": "Spain",
+    "companyLogo": "/img/Metrovacesa.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇪🇸",
+    "id": "1d3b399c-e53e-47b4-a90c-320e4bd362a9"
+  },
+  {
+    "companyName": "Knr Constructions",
+    "country": "India",
+    "companyLogo": "/img/Knr Constructions.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇮🇳",
+    "id": "ff1fa4a2-4406-4dec-966a-e79efd306fe5"
+  },
+  {
+    "companyName": "Green Brick Partners",
+    "country": "United States",
+    "companyLogo": "/img/Green Brick Partners.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇺🇸",
+    "id": "67d5ef3e-a49b-4c1d-bc21-a4bea8943816"
+  },
+  {
+    "companyName": "YIT",
+    "country": "Finland",
+    "companyLogo": "/img/YIT.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇫🇮",
+    "id": "854f44d8-e780-487d-9b1e-1686f52a3a2d"
+  },
+  {
+    "companyName": "Sunteck Realty",
+    "country": "India",
+    "companyLogo": "/img/Sunteck Realty.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇮🇳",
+    "id": "ff025992-b177-4f75-9039-40546122f3d6"
+  },
+  {
+    "companyName": "Sterling Construction",
+    "country": "United States",
+    "companyLogo": "/img/Sterling Construction.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇺🇸",
+    "id": "d25f1178-e13d-4274-95ea-9373b2b42dcc"
+  },
+  {
+    "companyName": "Kalpataru Power Transmission",
+    "country": "India",
+    "companyLogo": "/img/Kalpataru Power Transmission.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇮🇳",
+    "id": "49a02d8b-17a0-4747-b944-8320f6871bf8"
+  },
+  {
+    "companyName": "PORR",
+    "country": "Austria",
+    "companyLogo": "/img/PORR.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇦🇹",
+    "id": "7c0ca007-5cb4-4854-bf67-543c191e66b9"
+  },
+  {
+    "companyName": "Tutor Perini",
+    "country": "United States",
+    "companyLogo": "/img/Tutor Perini.webp",
+    "speciality": "Renewable",
+    "countryLogo": "🇺🇸",
+    "id": "5ab910b2-ae3b-4538-850b-990a704a9d68"
+  },
+  {
+    "companyName": "Hovnanian Enterprises",
+    "country": "United States",
+    "companyLogo": "/img/Hovnanian Enterprises.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "5cdd67f5-90ac-4e3e-bd35-ffd6f113f893"
+  },
+  {
+    "companyName": "Beazer Homes USA",
+    "country": "United States",
+    "companyLogo": "/img/Beazer Homes USA.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇺🇸",
+    "id": "7d4c208a-037c-4fae-bc24-ac019c185f8d"
+  },
+  {
+    "companyName": "North American Construction Group",
+    "country": "Canada",
+    "companyLogo": "/img/North American Construction Group.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇨🇦",
+    "id": "7840452e-fbc9-4390-85c8-80c8c0b68f4f"
+  },
+  {
+    "companyName": "Hindustan Construction Company",
+    "country": "India",
+    "companyLogo": "/img/Hindustan Construction Company.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇮🇳",
+    "id": "7aa60bc2-07dc-4ac9-94c9-38e44f632fa8"
+  },
+  {
+    "companyName": "Graña y Montero",
+    "country": "Peru",
+    "companyLogo": "/img/Graña y Montero.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇵🇪",
+    "id": "5eebe0bc-0967-4b74-9794-2e3b937c18f7"
+  },
+  {
+    "companyName": "Ashoka Buildcon",
+    "country": "India",
+    "companyLogo": "/img/Ashoka Buildcon.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇮🇳",
+    "id": "fd5a4aa2-3a64-4ad8-98d0-e04624fb8f15"
+  },
+  {
+    "companyName": "Action Construction Equipment",
+    "country": "India",
+    "companyLogo": "/img/Action Construction Equipment.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇮🇳",
+    "id": "2044f4e1-057c-4bd3-965d-af92926c3208"
+  },
+  {
+    "companyName": "Northwest Pipe Company",
+    "country": "United States",
+    "companyLogo": "/img/Northwest Pipe Company.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇺🇸",
+    "id": "a336ae99-f575-4601-aac8-a489fa833805"
+  },
+  {
+    "companyName": "Eneti",
+    "country": "Monaco",
+    "companyLogo": "/img/Eneti.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇲🇨",
+    "id": "959984f2-6780-4e08-8a9a-0983f408f8e5"
+  },
+  {
+    "companyName": "Power Mech Projects",
+    "country": "India",
+    "companyLogo": "/img/Power Mech Projects.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇮🇳",
+    "id": "7f11c5dd-1cca-4687-a76d-f8a3052699b5"
+  },
+  {
+    "companyName": "DIRTT Environmental Solutions",
+    "country": "Canada",
+    "companyLogo": "/img/DIRTT Environmental Solutions.webp",
+    "speciality": "Home builder",
+    "countryLogo": "🇨🇦",
+    "id": "b9102458-e0ee-460e-9942-163703cdb5a4"
+  },
+  {
+    "companyName": "Hill International",
+    "country": "United States",
+    "companyLogo": "/img/Hill International.webp",
+    "speciality": "Electrical",
+    "countryLogo": "🇺🇸",
+    "id": "35cf539d-7abe-4fb9-9233-baf092783352"
+  },
+  {
+    "companyName": "orion-group-holdings",
+    "country": "United States",
+    "companyLogo": "/img/orion-group-holdings.webp",
+    "speciality": "Plumbing",
+    "countryLogo": "🇺🇸",
+    "id": "4cd2700c-00c8-429d-beef-adc4e80fbd62"
+  },
+  {
+    "companyName": "SG Blocks",
+    "country": "United States",
+    "companyLogo": "/img/SG Blocks.webp",
+    "speciality": "Excavation",
+    "countryLogo": "🇺🇸",
+    "id": "935cdcaa-745d-45e2-9cdf-7e3524d0930a"
+  },
+  {
+    "companyName": "BHP Group",
+    "country": "Australia",
+    "companyLogo": "/img/BHP Group.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "232cad9d-8489-4830-b578-0f8636148937"
+  },
+  {
+    "companyName": "Rio Tinto",
+    "country": "United Kingdom",
+    "companyLogo": "/img/Rio Tinto.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇬🇧",
+    "id": "4d9c4667-365c-4644-9d8d-42d06c940fd1"
+  },
+  {
+    "companyName": "Vale",
+    "country": "Brazil",
+    "companyLogo": "/img/Vale.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇧🇷",
+    "id": "45285f4c-00e4-4767-aabc-77481da1df06"
+  },
+  {
+    "companyName": "China Shenhua Energy",
+    "country": "China",
+    "companyLogo": "/img/China Shenhua Energy.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇳",
+    "id": "6cd1750f-cd0b-4d52-a3a2-b96ac25abec1"
+  },
+  {
+    "companyName": "Glencore",
+    "country": "Switzerland",
+    "companyLogo": "/img/Glencore.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇭",
+    "id": "b3b55ad0-a7ea-4a0a-90ac-0e73aa25ce58"
+  },
+  {
+    "companyName": "Anglo American",
+    "country": "United Kingdom",
+    "companyLogo": "/img/Anglo American.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇬🇧",
+    "id": "cf9a785a-f1a0-4392-920d-baabe25ad505"
+  },
+  {
+    "companyName": "Freeport-McMoRan",
+    "country": "United States",
+    "companyLogo": "/img/Freeport-McMoRan.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "ec41ee64-f23c-4433-8c6c-99f9090de7b3"
+  },
+  {
+    "companyName": "Southern Copper",
+    "country": "United States",
+    "companyLogo": "/img/Southern Copper.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "5f3990ec-77d0-4a05-9477-929bbb850a03"
+  },
+  {
+    "companyName": "Newmont",
+    "country": "United States",
+    "companyLogo": "/img/Newmont.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "3ea4b4a2-d986-4b2c-8885-44cb8d40c7ba"
+  },
+  {
+    "companyName": "Fortescue",
+    "country": "Australia",
+    "companyLogo": "/img/Fortescue.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "8ad7b254-23e6-4e15-abc9-779bce4bc95e"
+  },
+  {
+    "companyName": "Zijin Mining",
+    "country": "China",
+    "companyLogo": "/img/Zijin Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇳",
+    "id": "ee22094f-d408-4c41-82a4-44eecf41a153"
+  },
+  {
+    "companyName": "Nutrien",
+    "country": "Canada",
+    "companyLogo": "/img/Nutrien.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "6332095c-894d-4f17-a139-a0d0525c740d"
+  },
+  {
+    "companyName": "Nornickel",
+    "country": "Russia",
+    "companyLogo": "/img/Nornickel.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇷🇺",
+    "id": "4804aa1d-3d71-4bcf-9557-5b0240b0577f"
+  },
+  {
+    "companyName": "Barrick Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Barrick Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "7e8a21c6-1722-4648-8f9d-e3a43355f323"
+  },
+  {
+    "companyName": "Franco-Nevada",
+    "country": "Canada",
+    "companyLogo": "/img/Franco-Nevada.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "678ca90c-bd0e-4f15-81cd-b53c1af16bd5"
+  },
+  {
+    "companyName": "Teck Resources",
+    "country": "Canada",
+    "companyLogo": "/img/Teck Resources.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "a5b7a88e-fbd8-4dd4-a383-b62190022985"
+  },
+  {
+    "companyName": "Vedanta",
+    "country": "India",
+    "companyLogo": "/img/Vedanta.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "f73ebc8f-6e14-443a-994a-c0687b37fcbf"
+  },
+  {
+    "companyName": "South32",
+    "country": "Australia",
+    "companyLogo": "/img/South32.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "0fa347f7-57bd-458e-b533-0c8a3e9f0169"
+  },
+  {
+    "companyName": "Coal India",
+    "country": "India",
+    "companyLogo": "/img/Coal India.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "e95fa2fe-ef4d-4585-9133-314d9e8c25e9"
+  },
+  {
+    "companyName": "Newcrest Mining",
+    "country": "Australia",
+    "companyLogo": "/img/Newcrest Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "692630b0-2d7f-4a84-a311-9a0d9d5e4777"
+  },
+  {
+    "companyName": "Shandong Gold Mining",
+    "country": "China",
+    "companyLogo": "/img/Shandong Gold Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇳",
+    "id": "771fca90-5dc8-417d-baee-9aa99614b71b"
+  },
+  {
+    "companyName": "Boliden",
+    "country": "Sweden",
+    "companyLogo": "/img/Boliden.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇸🇪",
+    "id": "0570339d-1064-4759-b756-e3e78ec2ed30"
+  },
+  {
+    "companyName": "Sibanye-Stillwater",
+    "country": "South Africa",
+    "companyLogo": "/img/Sibanye-Stillwater.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇿🇦",
+    "id": "f55c525f-e586-468d-a7bf-b2b54a97d1e8"
+  },
+  {
+    "companyName": "Gold Fields",
+    "country": "South Africa",
+    "companyLogo": "/img/Gold Fields.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇿🇦",
+    "id": "de05fe60-39ec-481e-9f70-50054a4bf750"
+  },
+  {
+    "companyName": "Cameco",
+    "country": "Canada",
+    "companyLogo": "/img/Cameco.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "2e27100e-7328-4e94-abb7-f2f9a3b2ba09"
+  },
+  {
+    "companyName": "AngloGold Ashanti",
+    "country": "South Africa",
+    "companyLogo": "/img/AngloGold Ashanti.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇿🇦",
+    "id": "73410b2c-1d69-4834-9175-42e9aeafb21d"
+  },
+  {
+    "companyName": "Metso Outotec (Mo Group)",
+    "country": "Finland",
+    "companyLogo": "/img/Metso Outotec (Mo Group).webp",
+    "speciality": "Mining",
+    "countryLogo": "🇫🇮",
+    "id": "8d4acf34-ebe0-4384-a816-d56719ee16e9"
+  },
+  {
+    "companyName": "Bayan Resources",
+    "country": "Indonesia",
+    "companyLogo": "/img/Bayan Resources.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇩",
+    "id": "864596a5-1449-45e2-872f-b1887cc48540"
+  },
+  {
+    "companyName": "KGHM Polska Miedź",
+    "country": "Poland",
+    "companyLogo": "/img/KGHM Polska Miedź.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇵🇱",
+    "id": "6fc91d0d-05f4-4a78-b168-8f5cf3538017"
+  },
+  {
+    "companyName": "Polymetal",
+    "country": "Cyprus",
+    "companyLogo": "/img/Polymetal.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇾",
+    "id": "2743b55d-f4a5-4d32-81d6-6d94ec93d372"
+  },
+  {
+    "companyName": "Kinross Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Kinross Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "f9782744-6dee-4314-85f3-93033a158862"
+  },
+  {
+    "companyName": "Royal Gold",
+    "country": "United States",
+    "companyLogo": "/img/Royal Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "8a89dbdd-6c5a-4cd2-a0e4-326db36f8361"
+  },
+  {
+    "companyName": "National Mineral Development Corporation",
+    "country": "India",
+    "companyLogo": "/img/National Mineral Development Corporation.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "b906b9e3-19c1-4d85-ae88-32d6b6e0d31c"
+  },
+  {
+    "companyName": "Lynas",
+    "country": "Malaysia",
+    "companyLogo": "/img/Lynas.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇲🇾",
+    "id": "abde8d40-4cf3-41e2-8904-83946dd758b8"
+  },
+  {
+    "companyName": "Merdeka Copper Gold",
+    "country": "Indonesia",
+    "companyLogo": "/img/Merdeka Copper Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇩",
+    "id": "36cfe488-c556-4ece-b463-00af433bc21f"
+  },
+  {
+    "companyName": "Pan American Silver",
+    "country": "Canada",
+    "companyLogo": "/img/Pan American Silver.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "0f8790ff-2a2d-492a-a16d-82cdd70f6329"
+  },
+  {
+    "companyName": "Yamana Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Yamana Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "5c10e174-b986-4f00-9edb-909b3f12272b"
+  },
+  {
+    "companyName": "B2Gold",
+    "country": "Canada",
+    "companyLogo": "/img/B2Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "25c32f01-7590-42ce-b699-28a6ad539025"
+  },
+  {
+    "companyName": "Lithium Americas",
+    "country": "Canada",
+    "companyLogo": "/img/Lithium Americas.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "d90a1bdd-b6ca-4e28-814a-1fe331e1922e"
+  },
+  {
+    "companyName": "Yancoal",
+    "country": "Australia",
+    "companyLogo": "/img/Yancoal.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "96679664-46b6-4a3a-a9e1-ff7295f8ddbb"
+  },
+  {
+    "companyName": "Hecla Mining",
+    "country": "United States",
+    "companyLogo": "/img/Hecla Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "00d38f03-83a4-4ae2-aecc-4e2958d14083"
+  },
+  {
+    "companyName": "First Majestic Silver",
+    "country": "Canada",
+    "companyLogo": "/img/First Majestic Silver.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "9a09302b-a7b7-4432-b237-9c0b06b7c463"
+  },
+  {
+    "companyName": "Alamos Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Alamos Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "d137d1b8-ef7a-4d6d-bd48-8aa584214953"
+  },
+  {
+    "companyName": "Harmony Gold",
+    "country": "South Africa",
+    "companyLogo": "/img/Harmony Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇿🇦",
+    "id": "d1e19368-03cf-4821-86c5-2ec2696f749b"
+  },
+  {
+    "companyName": "Buenaventura Mining Company",
+    "country": "Peru",
+    "companyLogo": "/img/Buenaventura Mining Company.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇵🇪",
+    "id": "6a0f2e5c-9fcd-4f5d-9e6e-80d11763071a"
+  },
+  {
+    "companyName": "Peabody Energy",
+    "country": "United States",
+    "companyLogo": "/img/Peabody Energy.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "1cf93f07-893f-4f20-97ba-483187ecc4a7"
+  },
+  {
+    "companyName": "KIOCL",
+    "country": "India",
+    "companyLogo": "/img/KIOCL.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "e5789421-3849-4bf1-abce-1fec3e470cc4"
+  },
+  {
+    "companyName": "Compañía de Acero del Pacífico",
+    "country": "Chile",
+    "companyLogo": "/img/Compañía de Acero del Pacífico.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇱",
+    "id": "b364e796-bc8f-46c0-8c49-80c177f87e15"
+  },
+  {
+    "companyName": "Compass Minerals",
+    "country": "United States",
+    "companyLogo": "/img/Compass Minerals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "946ceb44-d171-4643-af94-a40b9b830b71"
+  },
+  {
+    "companyName": "Hindustan Copper",
+    "country": "India",
+    "companyLogo": "/img/Hindustan Copper.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "ae96851e-ab1f-465e-ab46-44c0a6808646"
+  },
+  {
+    "companyName": "Arch Resources",
+    "country": "United States",
+    "companyLogo": "/img/Arch Resources.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "e839cede-41de-4135-ab8f-11f5a445fe15"
+  },
+  {
+    "companyName": "Alliance Resource Partners",
+    "country": "United States",
+    "companyLogo": "/img/Alliance Resource Partners.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "0f19228a-90f9-4fa0-9337-45847d3d0a5f"
+  },
+  {
+    "companyName": "Warrior Met Coal",
+    "country": "United States",
+    "companyLogo": "/img/Warrior Met Coal.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "5bc702b0-6ec2-4909-b19e-c08c7d5a722b"
+  },
+  {
+    "companyName": "MAG Silver",
+    "country": "Canada",
+    "companyLogo": "/img/MAG Silver.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "0fc3f46c-394f-4dd1-9fd5-3a5c9b870d12"
+  },
+  {
+    "companyName": "Koza Gold",
+    "country": "Turkey",
+    "companyLogo": "/img/Koza Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇹🇷",
+    "id": "b6cf09b1-43ea-482a-a033-67689dd867fd"
+  },
+  {
+    "companyName": "NLC India",
+    "country": "India",
+    "companyLogo": "/img/NLC India.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "185376e3-21e2-4026-a781-64259555445e"
+  },
+  {
+    "companyName": "Mechel PAO",
+    "country": "Russia",
+    "companyLogo": "/img/Mechel PAO.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇷🇺",
+    "id": "d5b7b549-1dba-48ee-8c47-db87f4dc73f6"
+  },
+  {
+    "companyName": "Coeur Mining",
+    "country": "United States",
+    "companyLogo": "/img/Coeur Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "ab866c9c-6917-4d9f-969e-4f569918374d"
+  },
+  {
+    "companyName": "Sandstorm Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Sandstorm Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "1a295b54-cfe4-4b36-9616-126fad99fbdf"
+  },
+  {
+    "companyName": "SilverCrest Metals",
+    "country": "Canada",
+    "companyLogo": "/img/SilverCrest Metals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "260bf740-54a7-4146-9f31-a6c6df5a2105"
+  },
+  {
+    "companyName": "Nexa Resources",
+    "country": "Luxembourg",
+    "companyLogo": "/img/Nexa Resources.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇱🇺",
+    "id": "576052e8-a34b-4e6f-9e42-60fcc6ae5dbc"
+  },
+  {
+    "companyName": "CONSOL Energy",
+    "country": "United States",
+    "companyLogo": "/img/CONSOL Energy.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "68749ca9-36e9-4766-9ebf-f918bfcb33fd"
+  },
+  {
+    "companyName": "Energy Fuels",
+    "country": "United States",
+    "companyLogo": "/img/Energy Fuels.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "8fc40ac2-7979-4945-8046-aee4db2e184e"
+  },
+  {
+    "companyName": "Fortuna Silver Mines",
+    "country": "Canada",
+    "companyLogo": "/img/Fortuna Silver Mines.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "e0d7c525-f1a4-4ea0-81fd-be8de220abf9"
+  },
+  {
+    "companyName": "Standard Lithium",
+    "country": "Canada",
+    "companyLogo": "/img/Standard Lithium.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "4cb76cee-0d4f-4ca3-bfb2-e168937b2ccd"
+  },
+  {
+    "companyName": "New Found Gold",
+    "country": "Canada",
+    "companyLogo": "/img/New Found Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "7f84ee96-3cd1-44d3-a19d-d6e36e65ba1b"
+  },
+  {
+    "companyName": "Denison Mines",
+    "country": "Canada",
+    "companyLogo": "/img/Denison Mines.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "6fcbf2e5-eb9a-46aa-8747-46efd0c7a9a5"
+  },
+  {
+    "companyName": "Sigma Lithium",
+    "country": "Canada",
+    "companyLogo": "/img/Sigma Lithium.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "cab6a445-34e1-4907-9fdd-8c3cee4d5eee"
+  },
+  {
+    "companyName": "BEML",
+    "country": "India",
+    "companyLogo": "/img/BEML.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "bc6d6ba3-a643-4de7-b542-50602fd138eb"
+  },
+  {
+    "companyName": "Orla Mining",
+    "country": "Canada",
+    "companyLogo": "/img/Orla Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "82d47830-bb10-4c78-875e-f16110c95370"
+  },
+  {
+    "companyName": "Uranium Energy",
+    "country": "United States",
+    "companyLogo": "/img/Uranium Energy.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "ccec1496-1a20-4124-aa60-33e7bd5a3f17"
+  },
+  {
+    "companyName": "Petropavlovsk",
+    "country": "United Kingdom",
+    "companyLogo": "/img/Petropavlovsk.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇬🇧",
+    "id": "e79dae6b-f4ee-444b-8b78-35b8eaed934f"
+  },
+  {
+    "companyName": "Piedmont Lithium",
+    "country": "Australia",
+    "companyLogo": "/img/Piedmont Lithium.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇦🇺",
+    "id": "b5b3b091-7b3b-40b7-ac6e-eaa4d4d8b9da"
+  },
+  {
+    "companyName": "U.S. Silica",
+    "country": "United States",
+    "companyLogo": "/img/U.S. Silica.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "2f46b205-b664-4c33-9b51-865fe870281a"
+  },
+  {
+    "companyName": "DRDGOLD",
+    "country": "South Africa",
+    "companyLogo": "/img/DRDGOLD.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇿🇦",
+    "id": "833586a2-2096-46f1-b5df-3ce9b8962c02"
+  },
+  {
+    "companyName": "Endeavour Silver",
+    "country": "Canada",
+    "companyLogo": "/img/Endeavour Silver.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "c42d45a2-a97d-4cd8-a9a7-614ed5f109c0"
+  },
+  {
+    "companyName": "Argonaut Gold",
+    "country": "United States",
+    "companyLogo": "/img/Argonaut Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "ae40cbef-968b-4ded-809b-ad673fe93ea8"
+  },
+  {
+    "companyName": "MOIL",
+    "country": "India",
+    "companyLogo": "/img/MOIL.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "f5531a3a-3cda-4a6b-aa00-2e27e68a6363"
+  },
+  {
+    "companyName": "Taseko Mines",
+    "country": "Canada",
+    "companyLogo": "/img/Taseko Mines.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "eeb77832-e926-4138-b441-a0eed6b6da43"
+  },
+  {
+    "companyName": "Gujarat Mineral Development",
+    "country": "India",
+    "companyLogo": "/img/Gujarat Mineral Development.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "28afcda5-1b67-4b12-a993-b3695b3f6eb7"
+  },
+  {
+    "companyName": "New Pacific Metals",
+    "country": "Canada",
+    "companyLogo": "/img/New Pacific Metals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "64459d0d-47b4-4fbb-a0ef-c77ae36ccf58"
+  },
+  {
+    "companyName": "Arizona Metals",
+    "country": "Canada",
+    "companyLogo": "/img/Arizona Metals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "24cd07c2-5c99-4408-8aaf-934e16a7487a"
+  },
+  {
+    "companyName": "PolyMet",
+    "country": "Canada",
+    "companyLogo": "/img/PolyMet.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "e7979cda-54b2-4b37-8763-5208c957e632"
+  },
+  {
+    "companyName": "Western Copper and Gold",
+    "country": "Canada",
+    "companyLogo": "/img/Western Copper and Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "c64cf0d5-1f67-4ab5-a55e-ba683fd86d10"
+  },
+  {
+    "companyName": "Gatos Silver",
+    "country": "United States",
+    "companyLogo": "/img/Gatos Silver.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "64a2518f-afd6-421a-9af4-0fdc4f1454b4"
+  },
+  {
+    "companyName": "NACCO Industries",
+    "country": "United States",
+    "companyLogo": "/img/NACCO Industries.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "f07df595-5701-4791-ba6b-88cc8aac618e"
+  },
+  {
+    "companyName": "Sierra Metals",
+    "country": "Canada",
+    "companyLogo": "/img/Sierra Metals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "f4d6f1e5-e559-47ba-9d2a-50d5d7c85ef1"
+  },
+  {
+    "companyName": "Northern Dynasty Minerals",
+    "country": "Canada",
+    "companyLogo": "/img/Northern Dynasty Minerals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "e6278a7b-9519-483c-8981-9feec6d5033e"
+  },
+  {
+    "companyName": "Americas Gold and Silver Corp",
+    "country": "Canada",
+    "companyLogo": "/img/Americas Gold and Silver Corp.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "7ca6de67-4cf8-49c6-b40f-cbbb22f25077"
+  },
+  {
+    "companyName": "Prakash Industries",
+    "country": "India",
+    "companyLogo": "/img/Prakash Industries.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇮🇳",
+    "id": "24f2c295-fdb9-497e-aaf5-b4818848e566"
+  },
+  {
+    "companyName": "Platinum Group Metals",
+    "country": "Canada",
+    "companyLogo": "/img/Platinum Group Metals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "3322f807-0a09-427d-86ff-2d7ffa117ccc"
+  },
+  {
+    "companyName": "Tanzanian Gold Corporation",
+    "country": "Canada",
+    "companyLogo": "/img/Tanzanian Gold Corporation.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "398676f8-ed4b-420b-aebf-9f571d022ca4"
+  },
+  {
+    "companyName": "Comstock Mining",
+    "country": "United States",
+    "companyLogo": "/img/Comstock Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "5af76247-0059-4cee-bd0c-90d9650d8a20"
+  },
+  {
+    "companyName": "Great Panther Mining",
+    "country": "Canada",
+    "companyLogo": "/img/Great Panther Mining.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "d8f0b621-1a15-4a54-94ec-26583ac9158a"
+  },
+  {
+    "companyName": "Vista Gold",
+    "country": "United States",
+    "companyLogo": "/img/Vista Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "5481b659-8fc0-4306-8375-068c9fcb4ef1"
+  },
+  {
+    "companyName": "Hallador Energy Company",
+    "country": "United States",
+    "companyLogo": "/img/Hallador Energy Company.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "9bc271cb-715e-4ec6-ae22-f86361a1b4e9"
+  },
+  {
+    "companyName": "Avino Silver &amp; Gold Mines",
+    "country": "Canada",
+    "companyLogo": "/img/Avino Silver &amp; Gold Mines.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "d116f74a-ff78-4430-a06a-f554acae7543"
+  },
+  {
+    "companyName": "Golden Minerals",
+    "country": "United States",
+    "companyLogo": "/img/Golden Minerals.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "5d22fe3c-cc6a-4c74-9d3d-53f3cf91bb7d"
+  },
+  {
+    "companyName": "Silver One Resources",
+    "country": "Canada",
+    "companyLogo": "/img/Silver One Resources.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇨🇦",
+    "id": "42fca6d9-22be-435c-8e1a-a53be19236b6"
+  },
+  {
+    "companyName": "U.S. Gold Corp",
+    "country": "United States",
+    "companyLogo": "/img/U.S. Gold Corp.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "0d4b40c8-ddc2-42ae-844f-be11fe176c90"
+  },
+  {
+    "companyName": "Solitario Zinc",
+    "country": "United States",
+    "companyLogo": "/img/Solitario Zinc.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "0950852d-d7c2-4f7f-b66e-268055344157"
+  },
+  {
+    "companyName": "Austin Gold",
+    "country": "United States",
+    "companyLogo": "/img/Austin Gold.webp",
+    "speciality": "Mining",
+    "countryLogo": "🇺🇸",
+    "id": "f7191c60-5a58-445d-9c61-eec05a4c471c"
+  },
+  {
+    "companyName": "CATL",
+    "country": "China",
+    "companyLogo": "/img/CATL.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "b2b4b827-02ef-404b-aeee-1cd46bf6a468"
+  },
+  {
+    "companyName": "Nextera Energy",
+    "country": "United States",
+    "companyLogo": "/img/Nextera Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "ffb00230-cfeb-42d1-93e7-bedff429d13f"
+  },
+  {
+    "companyName": "Equinor",
+    "country": "Norway",
+    "companyLogo": "/img/Equinor.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇴",
+    "id": "742e5676-7f3c-415f-91f2-8831b1dd1191"
+  },
+  {
+    "companyName": "LG Energy Solution",
+    "country": "South Korea",
+    "companyLogo": "/img/LG Energy Solution.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇰🇷",
+    "id": "fd7bb3c2-f99f-40c7-8605-d9601ba9f130"
+  },
+  {
+    "companyName": "China Yangtze Power",
+    "country": "China",
+    "companyLogo": "/img/China Yangtze Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "d7b5f537-ccee-4575-a607-00ef3e34c884"
+  },
+  {
+    "companyName": "Duke Energy",
+    "country": "United States",
+    "companyLogo": "/img/Duke Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "6edafc4d-512c-4ec8-af98-6c887d408079"
+  },
+  {
+    "companyName": "Enel",
+    "country": "Italy",
+    "companyLogo": "/img/Enel.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇹",
+    "id": "cf5123e1-6194-440a-bebe-5b11b336a665"
+  },
+  {
+    "companyName": "Southern Company",
+    "country": "United States",
+    "companyLogo": "/img/Southern Company.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "526001c4-acfa-4a8e-b5f6-d13ce40a7f77"
+  },
+  {
+    "companyName": "Iberdrola",
+    "country": "Spain",
+    "companyLogo": "/img/Iberdrola.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇪🇸",
+    "id": "797bcd76-60e2-474c-b288-1b704c329789"
+  },
+  {
+    "companyName": "Dominion Energy",
+    "country": "United States",
+    "companyLogo": "/img/Dominion Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "740dba8e-896e-453c-aa41-f003fc91df10"
+  },
+  {
+    "companyName": "Verbund AG",
+    "country": "Austria",
+    "companyLogo": "/img/Verbund AG.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇦🇹",
+    "id": "a182bc2e-1f46-4569-94a5-623231963219"
+  },
+  {
+    "companyName": "LONGi Green Energy Technology",
+    "country": "China",
+    "companyLogo": "/img/LONGi Green Energy Technology.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "093696af-3a06-4dda-a7b3-e296412cc6bb"
+  },
+  {
+    "companyName": "National Grid",
+    "country": "United Kingdom",
+    "companyLogo": "/img/National Grid.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇬🇧",
+    "id": "b5b3c645-57e5-4749-8f31-92231f9dd127"
+  },
+  {
+    "companyName": "American Electric Power",
+    "country": "United States",
+    "companyLogo": "/img/American Electric Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "b0d0d086-6d94-4fa9-8b80-6ca66918d22e"
+  },
+  {
+    "companyName": "Sempra Energy",
+    "country": "United States",
+    "companyLogo": "/img/Sempra Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "75e5f759-fe94-403e-acf4-b576f69cb99c"
+  },
+  {
+    "companyName": "Ørsted",
+    "country": "Denmark",
+    "companyLogo": "/img/Ørsted.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇰",
+    "id": "5c1f7fea-49c5-4372-b513-d633a704a8a8"
+  },
+  {
+    "companyName": "Exelon Corporation",
+    "country": "United States",
+    "companyLogo": "/img/Exelon Corporation.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "a6ada9a4-12a5-4590-9272-ccf961999ed8"
+  },
+  {
+    "companyName": "ENGIE",
+    "country": "France",
+    "companyLogo": "/img/ENGIE.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇫🇷",
+    "id": "5a8c24f7-8ab4-454a-a24a-bd1d8e10a2bc"
+  },
+  {
+    "companyName": "Adani Green Energy",
+    "country": "India",
+    "companyLogo": "/img/Adani Green Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "f65c7480-bab5-47bf-be82-0a24bfd9303d"
+  },
+  {
+    "companyName": "E.ON",
+    "country": "Germany",
+    "companyLogo": "/img/E.ON.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "c302cc86-4e47-4cad-a2f8-ebac17d6b70d"
+  },
+  {
+    "companyName": "PSEG",
+    "country": "United States",
+    "companyLogo": "/img/PSEG.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "2351dda8-5f15-432d-b7a1-b31eb655f51e"
+  },
+  {
+    "companyName": "EDF",
+    "country": "France",
+    "companyLogo": "/img/EDF.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇫🇷",
+    "id": "08b42fb9-aa4a-45af-b9c5-663be13b85cb"
+  },
+  {
+    "companyName": "Samsung SDI",
+    "country": "South Korea",
+    "companyLogo": "/img/Samsung SDI.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇰🇷",
+    "id": "2bfa1ac9-14ba-47a7-bf93-58e034e19c31"
+  },
+  {
+    "companyName": "Consolidated Edison",
+    "country": "United States",
+    "companyLogo": "/img/Consolidated Edison.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "56676fd7-ab44-4446-a3c9-8338eb4f6e74"
+  },
+  {
+    "companyName": "Adani Transmission",
+    "country": "India",
+    "companyLogo": "/img/Adani Transmission.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "b131e87c-65e3-4d69-99b5-54b175de09d8"
+  },
+  {
+    "companyName": "Saudi Electricity",
+    "country": "Saudi Arabia",
+    "companyLogo": "/img/Saudi Electricity.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇸🇦",
+    "id": "7dca0cb4-621c-4296-8ec6-e950fc701f86"
+  },
+  {
+    "companyName": "RWE",
+    "country": "Germany",
+    "companyLogo": "/img/RWE.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "f17ed3b7-114f-4850-a5f6-28021f217ad9"
+  },
+  {
+    "companyName": "Eversource Energy",
+    "country": "United States",
+    "companyLogo": "/img/Eversource Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "2ecf3f02-e7c8-4271-8c16-632526c5d132"
+  },
+  {
+    "companyName": "CLP Group",
+    "country": "Hong Kong",
+    "companyLogo": "/img/CLP Group.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇭🇰",
+    "id": "cb8267a4-1add-4061-b72c-10f6edb435db"
+  },
+  {
+    "companyName": "Vestas Wind Systems",
+    "country": "Denmark",
+    "companyLogo": "/img/Vestas Wind Systems.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇰",
+    "id": "c6eb7a28-ee47-4391-bfc0-c227c0e9f5ec"
+  },
+  {
+    "companyName": "Pacific Gas and Electric",
+    "country": "United States",
+    "companyLogo": "/img/Pacific Gas and Electric.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "9d9f981a-cec5-48dc-b830-34f8e3cca05b"
+  },
+  {
+    "companyName": "EnBW Energie",
+    "country": "Germany",
+    "companyLogo": "/img/EnBW Energie.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "67a5ab69-1f5b-4bb2-8a7d-d0f18ff11c56"
+  },
+  {
+    "companyName": "FirstEnergy",
+    "country": "United States",
+    "companyLogo": "/img/FirstEnergy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "4a5de7fe-d5f0-42f4-8488-2c6258629c9a"
+  },
+  {
+    "companyName": "Endesa",
+    "country": "Spain",
+    "companyLogo": "/img/Endesa.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇪🇸",
+    "id": "0dd712b5-27ba-443a-9bcc-9df9e97eed7d"
+  },
+  {
+    "companyName": "Ameren",
+    "country": "United States",
+    "companyLogo": "/img/Ameren.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "5be5b5a9-183f-44c0-aa2a-e24a83f57b65"
+  },
+  {
+    "companyName": "ČEZ Group",
+    "country": "Czech Republic",
+    "companyLogo": "/img/ČEZ Group.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇿",
+    "id": "a20a257c-5dec-4912-a137-d1d68c0a517f"
+  },
+  {
+    "companyName": "PPL",
+    "country": "United States",
+    "companyLogo": "/img/PPL.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "4e0e0560-90ff-4e53-a7db-c8df0528caa7"
+  },
+  {
+    "companyName": "Powergrid Corporation of India",
+    "country": "India",
+    "companyLogo": "/img/Powergrid Corporation of India.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "19b24b2e-d594-4b4c-a8f3-86b4d02a1bbf"
+  },
+  {
+    "companyName": "EDP Group",
+    "country": "Portugal",
+    "companyLogo": "/img/EDP Group.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇵🇹",
+    "id": "2f2dd6ae-da15-4e2d-a066-0ca04568a22b"
+  },
+  {
+    "companyName": "CMS Energy",
+    "country": "United States",
+    "companyLogo": "/img/CMS Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "76460c4d-e148-48a5-9312-96a374ddb275"
+  },
+  {
+    "companyName": "Huaneng Power",
+    "country": "China",
+    "companyLogo": "/img/Huaneng Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "2a299b4e-0550-4c3f-83b0-1b755ed402ef"
+  },
+  {
+    "companyName": "CenterPoint Energy",
+    "country": "United States",
+    "companyLogo": "/img/CenterPoint Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "498dd59a-f176-4124-b29a-80c8f508cbdf"
+  },
+  {
+    "companyName": "Constellation Energy",
+    "country": "United States",
+    "companyLogo": "/img/Constellation Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "fe5ef8e6-e8f7-4948-b9d6-30b5fc541d78"
+  },
+  {
+    "companyName": "Siemens Energy",
+    "country": "Germany",
+    "companyLogo": "/img/Siemens Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "88efc5f9-a861-4662-a7cf-01553a47a924"
+  },
+  {
+    "companyName": "Evergy",
+    "country": "United States",
+    "companyLogo": "/img/Evergy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "28534548-f2d4-4ea7-a41e-ae7aa379d2b2"
+  },
+  {
+    "companyName": "Alliant Energy",
+    "country": "United States",
+    "companyLogo": "/img/Alliant Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "06c514ae-b68a-42dd-8d11-ed29347c861f"
+  },
+  {
+    "companyName": "AES",
+    "country": "United States",
+    "companyLogo": "/img/AES.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "02626e8a-0e7e-44ff-93c6-233340d0c14e"
+  },
+  {
+    "companyName": "Power Assets",
+    "country": "Hong Kong",
+    "companyLogo": "/img/Power Assets.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇭🇰",
+    "id": "faf5f22b-a8d7-43ea-9fce-cea984a4c1c2"
+  },
+  {
+    "companyName": "SolarEdge",
+    "country": "Israel",
+    "companyLogo": "/img/SolarEdge.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇱",
+    "id": "e200bb62-6d3b-491c-a56c-d37b26de3eae"
+  },
+  {
+    "companyName": "Tenaga Nasional",
+    "country": "Malaysia",
+    "companyLogo": "/img/Tenaga Nasional.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇲🇾",
+    "id": "1955ee87-fe04-4a71-8262-531f6860aaa3"
+  },
+  {
+    "companyName": "Korea Electric Power",
+    "country": "South Korea",
+    "companyLogo": "/img/Korea Electric Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇰🇷",
+    "id": "eeabe154-ccd1-4260-a14d-1525d64af5d5"
+  },
+  {
+    "companyName": "Enel Américas",
+    "country": "Chile",
+    "companyLogo": "/img/Enel Américas.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇱",
+    "id": "1d45c3f0-6d5e-4361-8326-54bbb0fdbc81"
+  },
+  {
+    "companyName": "NiSource",
+    "country": "United States",
+    "companyLogo": "/img/NiSource.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "72b8abb9-62ac-4d75-a254-0d4e6ca43f09"
+  },
+  {
+    "companyName": "Centrais Electricas Brasileiras",
+    "country": "Brazil",
+    "companyLogo": "/img/Centrais Electricas Brasileiras.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇷",
+    "id": "e3be8feb-d1ea-47bb-814a-488a887d416a"
+  },
+  {
+    "companyName": "Tata Power",
+    "country": "India",
+    "companyLogo": "/img/Tata Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "49cea169-6c5f-4914-b65e-789a26ab80ae"
+  },
+  {
+    "companyName": "Algonquin Power & Utilities",
+    "country": "Canada",
+    "companyLogo": "/img/Algonquin Power & Utilities.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇦",
+    "id": "1608fb8b-cad2-4b69-9d72-a7e7ecfa8618"
+  },
+  {
+    "companyName": "Brookfield Renewable Partners",
+    "country": "Bermuda",
+    "companyLogo": "/img/Brookfield Renewable Partners.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇲",
+    "id": "ca0fcfce-ff48-41f5-8339-07f8d6d65596"
+  },
+  {
+    "companyName": "HK Electric Investments",
+    "country": "Hong Kong",
+    "companyLogo": "/img/HK Electric Investments.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇭🇰",
+    "id": "9674c6f1-518d-47bb-a9b8-a21528f274e3"
+  },
+  {
+    "companyName": "KEPCO",
+    "country": "Japan",
+    "companyLogo": "/img/KEPCO.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇯🇵",
+    "id": "b6f84d78-c911-4b4f-854a-51af56943d59"
+  },
+  {
+    "companyName": "Chubu Electric Power",
+    "country": "Japan",
+    "companyLogo": "/img/Chubu Electric Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇯🇵",
+    "id": "06ffb106-1b57-44e5-b91a-59229bb653ba"
+  },
+  {
+    "companyName": "JSW Energy",
+    "country": "India",
+    "companyLogo": "/img/JSW Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "d3710a9b-a125-4359-85e2-caef455bdfbf"
+  },
+  {
+    "companyName": "QuantumScape",
+    "country": "United States",
+    "companyLogo": "/img/QuantumScape.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "137f7494-2b72-4146-a2ea-66ac3fcbf5ec"
+  },
+  {
+    "companyName": "Adani Power",
+    "country": "India",
+    "companyLogo": "/img/Adani Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "3b666448-923b-4ee1-8cd5-d0076f258f6d"
+  },
+  {
+    "companyName": "CPFL Energia",
+    "country": "Brazil",
+    "companyLogo": "/img/CPFL Energia.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇷",
+    "id": "8abc4a93-5836-4651-b4cd-c000b4455c9c"
+  },
+  {
+    "companyName": "ENGIE Brasil",
+    "country": "Brazil",
+    "companyLogo": "/img/ENGIE Brasil.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇷",
+    "id": "daa10430-ec89-4858-9e21-23eb64e1f865"
+  },
+  {
+    "companyName": "Brookfield Renewable",
+    "country": "United States",
+    "companyLogo": "/img/Brookfield Renewable.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "0fb6193e-71d7-46d1-a7f7-c22c57ee371a"
+  },
+  {
+    "companyName": "Hera Group",
+    "country": "Italy",
+    "companyLogo": "/img/Hera Group.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇹",
+    "id": "30255355-b17d-4149-b1ae-0b75f0672cb3"
+  },
+  {
+    "companyName": "nVent Electric",
+    "country": "United Kingdom",
+    "companyLogo": "/img/nVent Electric.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇬🇧",
+    "id": "85dddff4-fc95-4ea6-bb31-9e3ed4db1811"
+  },
+  {
+    "companyName": "Hanwha Solutions",
+    "country": "South Korea",
+    "companyLogo": "/img/Hanwha Solutions.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇰🇷",
+    "id": "62c87ddd-45a3-4d2c-bd5e-fc15b0a6f41c"
+  },
+  {
+    "companyName": "EVN Group",
+    "country": "Austria",
+    "companyLogo": "/img/EVN Group.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇦🇹",
+    "id": "fa2a9a0e-f32f-47bb-94fb-1c0cfb5c479c"
+  },
+  {
+    "companyName": "Mercury NZ",
+    "country": "New Zealand",
+    "companyLogo": "/img/Mercury NZ.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇿",
+    "id": "1d90ef82-bb88-4975-9c00-6941d1fbe2dd"
+  },
+  {
+    "companyName": "Adaro Energy",
+    "country": "Indonesia",
+    "companyLogo": "/img/Adaro Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇩",
+    "id": "e3169ea8-9935-4b05-893d-134356d11ba4"
+  },
+  {
+    "companyName": "Cemig",
+    "country": "Brazil",
+    "companyLogo": "/img/Cemig.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇷",
+    "id": "ae6290be-240a-442b-a8ee-4dc718c0a42b"
+  },
+  {
+    "companyName": "ChargePoint",
+    "country": "United States",
+    "companyLogo": "/img/ChargePoint.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "b9775312-9008-4f96-b824-543231871bd1"
+  },
+  {
+    "companyName": "Equatorial Energia",
+    "country": "Brazil",
+    "companyLogo": "/img/Equatorial Energia.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇧🇷",
+    "id": "e2c7922e-a08a-4bc1-aca1-7d785d46ecb6"
+  },
+  {
+    "companyName": "Varta",
+    "country": "Germany",
+    "companyLogo": "/img/Varta.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "cadc232c-52b9-4d08-8fe6-78c70c2c28c4"
+  },
+  {
+    "companyName": "Contact Energy",
+    "country": "New Zealand",
+    "companyLogo": "/img/Contact Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇿",
+    "id": "a47bf45c-915c-48e3-acbe-4a12be5ea897"
+  },
+  {
+    "companyName": "ERG",
+    "country": "Italy",
+    "companyLogo": "/img/ERG.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇹",
+    "id": "dc494be0-02e9-4a2d-8e64-cef04b3a9ee1"
+  },
+  {
+    "companyName": "NHPC Limited",
+    "country": "India",
+    "companyLogo": "/img/NHPC Limited.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "f2bf17a5-2b1f-4249-9af9-8311cd70c277"
+  },
+  {
+    "companyName": "Mainova",
+    "country": "Germany",
+    "companyLogo": "/img/Mainova.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "16bcb4de-0dce-4a6a-bcfe-09fc1a7d967b"
+  },
+  {
+    "companyName": "ATCO",
+    "country": "Canada",
+    "companyLogo": "/img/ATCO.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇦",
+    "id": "299d3851-a1f2-4a46-96aa-c00271faa30b"
+  },
+  {
+    "companyName": "Allete",
+    "country": "United States",
+    "companyLogo": "/img/Allete.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "8cb2f0f0-1032-4c7b-9227-98793978d682"
+  },
+  {
+    "companyName": "Tohoku Electric Power",
+    "country": "Japan",
+    "companyLogo": "/img/Tohoku Electric Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇯🇵",
+    "id": "a640e716-6de0-429f-a4ff-d977f81a08d4"
+  },
+  {
+    "companyName": "NorthWestern Corporation",
+    "country": "United States",
+    "companyLogo": "/img/NorthWestern Corporation.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "51722d81-5944-495d-b6f6-2ea142c6ea4c"
+  },
+  {
+    "companyName": "Enel Chile",
+    "country": "Chile",
+    "companyLogo": "/img/Enel Chile.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇱",
+    "id": "9f75b6d6-c33a-4cd1-b412-384162586b36"
+  },
+  {
+    "companyName": "Vector Limited",
+    "country": "New Zealand",
+    "companyLogo": "/img/Vector Limited.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇿",
+    "id": "b7dbd706-b1e1-49cd-b983-56542a61cf35"
+  },
+  {
+    "companyName": "Otter Tail",
+    "country": "United States",
+    "companyLogo": "/img/Otter Tail.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "2fc09159-1912-407f-b6b4-269b4ce68f05"
+  },
+  {
+    "companyName": "Encavis",
+    "country": "Germany",
+    "companyLogo": "/img/Encavis.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "c7cbbe82-05f0-4200-8c31-ecf2a1cf81b9"
+  },
+  {
+    "companyName": "OPC Energy",
+    "country": "Israel",
+    "companyLogo": "/img/OPC Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇱",
+    "id": "ba9b9813-937d-4559-8bff-8e0754c7159f"
+  },
+  {
+    "companyName": "Wallbox",
+    "country": "Spain",
+    "companyLogo": "/img/Wallbox.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇪🇸",
+    "id": "7f3e52f4-ccaf-41aa-808f-c61dc9a04ef4"
+  },
+  {
+    "companyName": "Enovix",
+    "country": "United States",
+    "companyLogo": "/img/Enovix.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "5d625acb-88db-44eb-8443-f8edb982d9e8"
+  },
+  {
+    "companyName": "Minera Valparaíso",
+    "country": "Chile",
+    "companyLogo": "/img/Minera Valparaíso.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇱",
+    "id": "23d2cf16-d126-48ec-ab59-592ce81acbe2"
+  },
+  {
+    "companyName": "Genesis Energy",
+    "country": "New Zealand",
+    "companyLogo": "/img/Genesis Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇿",
+    "id": "5182890a-b98d-4a2a-a768-e5054f524d38"
+  },
+  {
+    "companyName": "Solaria Energía",
+    "country": "Spain",
+    "companyLogo": "/img/Solaria Energía.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇪🇸",
+    "id": "b1755309-89ed-4d23-9e5c-7f1e3d5888ad"
+  },
+  {
+    "companyName": "Microvast",
+    "country": "United States",
+    "companyLogo": "/img/Microvast.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "ed6f81fa-a667-4852-9d00-9d08af9e5e1d"
+  },
+  {
+    "companyName": "Energix Renewable Energies",
+    "country": "Israel",
+    "companyLogo": "/img/Energix Renewable Energies.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇱",
+    "id": "821b262f-397d-4432-bb47-538944627470"
+  },
+  {
+    "companyName": "Jinko Solar",
+    "country": "China",
+    "companyLogo": "/img/Jinko Solar.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "14f9bad7-8ccd-40b9-8b9f-2dc91ac7325b"
+  },
+  {
+    "companyName": "Sunnova",
+    "country": "United States",
+    "companyLogo": "/img/Sunnova.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "5725af02-8865-4ab9-91b6-2b91484abbed"
+  },
+  {
+    "companyName": "Voltalia",
+    "country": "France",
+    "companyLogo": "/img/Voltalia.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇫🇷",
+    "id": "067e4ffe-d820-433a-ae22-5d1fb93fd808"
+  },
+  {
+    "companyName": "stem",
+    "country": "United States",
+    "companyLogo": "/img/stem.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "b3f87eca-f1a9-4c44-b1b6-8394517b8e8f"
+  },
+  {
+    "companyName": "Colbún",
+    "country": "Chile",
+    "companyLogo": "/img/Colbún.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇱",
+    "id": "bcacd429-0315-4534-a2fd-9b2d7ee381f0"
+  },
+  {
+    "companyName": "Trustpower",
+    "country": "New Zealand",
+    "companyLogo": "/img/Trustpower.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇳🇿",
+    "id": "9591995d-4be5-4311-bdaa-0c804aea7e8b"
+  },
+  {
+    "companyName": "NLC India",
+    "country": "India",
+    "companyLogo": "/img/NLC India.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "2154c21b-5b29-49a7-86b6-25021e44ac54"
+  },
+  {
+    "companyName": "Amara Raja Batteries",
+    "country": "India",
+    "companyLogo": "/img/Amara Raja Batteries.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "90bc6f89-3e1e-4d45-94e2-eb199cfbf2eb"
+  },
+  {
+    "companyName": "Solid Power",
+    "country": "United States",
+    "companyLogo": "/img/Solid Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "c2fa8284-e52c-415e-bfe3-15bb0ed7904d"
+  },
+  {
+    "companyName": "Albioma",
+    "country": "France",
+    "companyLogo": "/img/Albioma.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇫🇷",
+    "id": "1366555e-3a67-46ef-b6ce-fcf4a236077c"
+  },
+  {
+    "companyName": "Pampa Energía",
+    "country": "Argentina",
+    "companyLogo": "/img/Pampa Energía.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇦🇷",
+    "id": "777a7833-1b1f-49fc-9de1-801a958253e3"
+  },
+  {
+    "companyName": "FREYR Battery",
+    "country": "Luxembourg",
+    "companyLogo": "/img/FREYR Battery.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇱🇺",
+    "id": "75e6f4c0-822b-42f2-a1f9-4a5ae07f80c0"
+  },
+  {
+    "companyName": "Blink Charging",
+    "country": "United States",
+    "companyLogo": "/img/Blink Charging.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "f27e618c-d51f-4e5c-8e8c-30c7f8e14750"
+  },
+  {
+    "companyName": "Azure Power",
+    "country": "India",
+    "companyLogo": "/img/Azure Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "cfb82689-5610-4596-a17e-c8a9558b0076"
+  },
+  {
+    "companyName": "Volta",
+    "country": "United States",
+    "companyLogo": "/img/Volta.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "3f829faf-ab03-4dc2-b6ee-252321f674d7"
+  },
+  {
+    "companyName": "Electrica",
+    "country": "Romania",
+    "companyLogo": "/img/Electrica.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇷🇴",
+    "id": "7e96adee-f7e4-45e7-bedf-5598a82ee145"
+  },
+  {
+    "companyName": "Unitil Corporation",
+    "country": "United States",
+    "companyLogo": "/img/Unitil Corporation.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "8059c46b-0186-4792-86f1-57523414fc1e"
+  },
+  {
+    "companyName": "Kalpataru Power Transmission",
+    "country": "India",
+    "companyLogo": "/img/Kalpataru Power Transmission.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "236d76c2-e2ae-47ae-8f05-a081576cd5de"
+  },
+  {
+    "companyName": "Reliance Power",
+    "country": "India",
+    "companyLogo": "/img/Reliance Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "63de16af-223f-4a6e-91e9-bdd25f823c92"
+  },
+  {
+    "companyName": "EVgo",
+    "country": "United States",
+    "companyLogo": "/img/EVgo.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "67c0c104-8139-409c-a94f-30a46aad7f05"
+  },
+  {
+    "companyName": "Babcock &amp; Wilcox",
+    "country": "United States",
+    "companyLogo": "/img/Babcock &amp; Wilcox.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "40e01a88-279f-4d26-82e6-ad7c7ab18358"
+  },
+  {
+    "companyName": "Reliance Infrastructure",
+    "country": "India",
+    "companyLogo": "/img/Reliance Infrastructure.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "b3f3e3b6-9efc-41c9-b6b3-bd8c1636fe42"
+  },
+  {
+    "companyName": "RattanIndia Power",
+    "country": "India",
+    "companyLogo": "/img/RattanIndia Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "6a23037e-1280-4e0d-8b7e-1df913851012"
+  },
+  {
+    "companyName": "ReneSola",
+    "country": "United States",
+    "companyLogo": "/img/ReneSola.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "b47be92a-e8ed-4b75-98be-bed198577fce"
+  },
+  {
+    "companyName": "Inox Wind",
+    "country": "India",
+    "companyLogo": "/img/Inox Wind.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "df12c568-233a-4a5c-8600-5446927ec16d"
+  },
+  {
+    "companyName": "Atlantic Power Corporation",
+    "country": "United States",
+    "companyLogo": "/img/Atlantic Power Corporation.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "e984a8be-6ec5-4c1f-8078-fce1db80140b"
+  },
+  {
+    "companyName": "Voltamp Transformers",
+    "country": "India",
+    "companyLogo": "/img/Voltamp Transformers.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "6283e076-d96e-444c-9e25-9d9756ea3a7b"
+  },
+  {
+    "companyName": "KULR Technology",
+    "country": "United States",
+    "companyLogo": "/img/KULR Technology.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "f05068b8-fa10-476a-af7a-927758ec0617"
+  },
+  {
+    "companyName": "Compleo Charging Solutions",
+    "country": "Germany",
+    "companyLogo": "/img/Compleo Charging Solutions.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇩🇪",
+    "id": "b92121bf-7bd8-4da0-9014-418ee1f9ccd4"
+  },
+  {
+    "companyName": "Just Energy",
+    "country": "Canada",
+    "companyLogo": "/img/Just Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇦",
+    "id": "1fcdf8c5-1a17-44fe-8de9-d94df6af21ce"
+  },
+  {
+    "companyName": "CBAK Energy",
+    "country": "China",
+    "companyLogo": "/img/CBAK Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇨🇳",
+    "id": "c73c6d7e-5120-4e90-8d75-80790c94f08c"
+  },
+  {
+    "companyName": "SPI Energy",
+    "country": "Hong Kong",
+    "companyLogo": "/img/SPI Energy.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇭🇰",
+    "id": "1834406f-e3b7-4752-b17c-f5927bbe3ae1"
+  },
+  {
+    "companyName": "Pioneer Power Solutions",
+    "country": "United States",
+    "companyLogo": "/img/Pioneer Power Solutions.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "b61f222e-a6f9-4c62-ac04-d13833dfefbc"
+  },
+  {
+    "companyName": "Sunworks",
+    "country": "United States",
+    "companyLogo": "/img/Sunworks.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "92408f03-0fe8-4736-bca8-ae955ab4b63a"
+  },
+  {
+    "companyName": "Ocean Power Technologies",
+    "country": "United States",
+    "companyLogo": "/img/Ocean Power Technologies.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "cbb2ef67-c924-4927-b8b6-7fe405b90711"
+  },
+  {
+    "companyName": "GVK Power & Infrastructure",
+    "country": "India",
+    "companyLogo": "/img/GVK Power & Infrastructure.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇮🇳",
+    "id": "f8f5cf26-9449-4477-993a-5d2a49d2821f"
+  },
+  {
+    "companyName": "VivoPower",
+    "country": "United Kingdom",
+    "companyLogo": "/img/VivoPower.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇬🇧",
+    "id": "432a96f2-80a4-444d-8581-699755fe58ba"
+  },
+  {
+    "companyName": "Polar Power",
+    "country": "United States",
+    "companyLogo": "/img/Polar Power.webp",
+    "speciality": "Electricity",
+    "countryLogo": "🇺🇸",
+    "id": "0fe1676a-66d0-4e99-aa1d-3b89ee362e90"
+  }
+]
