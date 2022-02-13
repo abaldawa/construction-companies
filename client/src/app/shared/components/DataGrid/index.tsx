@@ -113,7 +113,7 @@ export const DataGrid = <RowData,>(props: PropsWithChildren<DataGridProps<RowDat
       selectedColumns.reduce((result, columnHeading) => {
         result[columnHeading] = columnHeading;
         return result;
-      }, {} as {[k: string]: string}) :
+      }, {} as VisibleColumns) :
       {}
     );
   });

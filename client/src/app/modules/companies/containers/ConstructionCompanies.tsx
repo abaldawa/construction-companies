@@ -9,8 +9,6 @@ const ConstructionCompanies: React.FC = () => {
   const {data: constructionCompanies = [], loading, error} = useFetchOnce<Company[]>(COMPANIES_URL, "json");
 
   const columns = useMemo<DataGridColumn<Company>[]>(() => {
-
-    // @ts-ignore
     const uniqueSpecialityColumn: string[] = [...new Set(constructionCompanies.map(c => c.speciality))].filter(Boolean);
 
     return ([
@@ -25,6 +23,7 @@ const ConstructionCompanies: React.FC = () => {
             return (
               <div style={{display: "flex", alignItems: "center"}}>
                 <img
+                  loading="lazy"
                   alt={company.companyName}
                   style={{width: "32px", height: "32px", marginRight: "0.5rem"}}
                   src={company.companyLogo}
