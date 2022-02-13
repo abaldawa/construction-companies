@@ -8,7 +8,7 @@ import React, {
 import {useEventCallback} from "../../../../hooks/useEventCallback";
 import {useDidUpdate} from "../../../../hooks/useDidUpdate";
 
-type SupportedInputTypes = Extract<HTMLInputTypeAttribute, "text" | "number" | "checkbox" | "date">;
+type SupportedInputTypes = Extract<HTMLInputTypeAttribute, "search" | "text" | "number" | "checkbox" | "date">;
 export type OnInputChange<InputType> = (args: {
   inputValue: InputType;
   clearInput: () => void;
@@ -40,6 +40,7 @@ export const Input = <InputType extends string | number | boolean>({
       case "checkbox":
         setInputValue(checked as InputType);
         break;
+      case "search":
       case "text":
       case "date":
       default:
