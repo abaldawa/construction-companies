@@ -1,14 +1,17 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {memo} from "react";
 import {ColumnSorter, ColumnSortOrder, DataGridColumn, DataGridProps, VisibleColumns} from "../index";
 import {ColumnHeading} from "../ColumnHeading";
 import {FilterChangeFun} from "../hooks/useColumnFilter";
 
-interface ColumnHeadingsProps<RowData> extends Pick<DataGridProps<RowData>, "columns" | "fixedHeaderWhenScroll"> {
+export interface ColumnHeadingsProps<RowData> extends Pick<DataGridProps<RowData>, "columns" | "fixedHeaderWhenScroll"> {
   onFilterChange?: FilterChangeFun<RowData>;
   onSortChange: (fieldId: DataGridColumn<RowData>["fieldId"], columnSortOrder: ColumnSortOrder) => void;
   activeColumnSorter: Record<DataGridColumn<RowData>["fieldId"], { sort: ColumnSorter<RowData>["sort"]; sortOrder: NonNullable<ColumnSortOrder>}>;
   visibleColumns: VisibleColumns;
-  children?: never;
 }
 
 const ColumnHeadingsComponent = <RowData,>(props: ColumnHeadingsProps<RowData>) => {

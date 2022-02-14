@@ -1,5 +1,9 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {ChangeEvent, useEffect, useRef, useState} from "react";
-import {useOutsideClick} from "../../hooks/useOutsideClick";
+import {useDetectOutsideClick} from "../../hooks/useDetectOutsideClick";
 import {useEventCallback} from "../../hooks/useEventCallback";
 import {useDidUpdate} from "../../hooks/useDidUpdate";
 import {createUseStyles} from "react-jss";
@@ -52,7 +56,7 @@ export const MultiSelectCheckbox: React.FC<MultiSelectCheckboxProps> = ({
 }) => {
   const [selected, setSelected] = useState<{[key: string]: string}>(selectedValues);
   const checkboxRef = useRef<HTMLDivElement | null>(null);
-  const outsideClickDetected = useOutsideClick(checkboxRef);
+  const outsideClickDetected = useDetectOutsideClick(checkboxRef);
   const classes = useStyles();
   const showSelectionList = typeof outsideClickDetected === "undefined" ? false : !outsideClickDetected;
 

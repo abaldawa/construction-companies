@@ -1,18 +1,21 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React from "react";
 import type {DataGridColumn, DataGridProps} from "../index";
 import {createUseStyles} from "react-jss";
 import type {ColumnSortOrder} from "../index";
-import {ColumnSorter} from "../index";
-import {FilterChangeFun} from "../hooks/useColumnFilter";
 import {Input} from "../columnFilters/InputFilter";
 import {ColumnSortArrow} from "../ColumnSortArrow";
+import {ColumnHeadingsProps} from "../ColumnHeadings";
 
-interface ColumnHeadingProps<RowData> extends Pick<DataGridColumn<RowData>, "headerName" | "type" | "filter" | "fieldId">, Pick<DataGridProps<RowData>, "fixedHeaderWhenScroll"> {
-  onFilterChange?: FilterChangeFun<RowData>;
-  onSortChange: (fieldId: DataGridColumn<RowData>["fieldId"], columnSortOrder: ColumnSortOrder) => void;
-  activeColumnSorter: Record<DataGridColumn<RowData>["fieldId"], { sort: ColumnSorter<RowData>["sort"]; sortOrder: NonNullable<ColumnSortOrder>}>;
+interface ColumnHeadingProps<RowData> extends
+  Pick<DataGridColumn<RowData>, "headerName" | "type" | "filter" | "fieldId">,
+  Pick<DataGridProps<RowData>, "fixedHeaderWhenScroll">,
+  Pick<ColumnHeadingsProps<RowData>, "onFilterChange" | "onSortChange" | "activeColumnSorter">
+{
   enableSorting?: boolean;
-  children?: never;
 }
 
 const useStyles = createUseStyles({
@@ -36,7 +39,7 @@ const useStyles = createUseStyles({
 export const ColumnHeading = <RowData,>(props: ColumnHeadingProps<RowData>) => {
   const {
     headerName,
-    type,
+    type: columnType,
     filter,
     fieldId,
     onFilterChange,
@@ -50,11 +53,19 @@ export const ColumnHeading = <RowData,>(props: ColumnHeadingProps<RowData>) => {
   const getFilter = () => {
     if(filter) {
       if(typeof filter !== "boolean" && filter.renderColumnFilter) {
+        /**
+         *  If the user has provided a custom component to show as a filter on this
+         *  column then show that instead and notify any filter changes.
+         */
         return filter.renderColumnFilter((arg: any, clearFilter) => {
           onFilterChange?.(fieldId, arg, clearFilter);
         });
       } else {
-        switch (type) {
+        /**
+         * If the user has NOT provided any filter component to render then render an
+         * appropriate filter component based on the columnType
+         */
+        switch (columnType) {
           case "number":
             return <Input<number>
               type="number"

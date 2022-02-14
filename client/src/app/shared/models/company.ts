@@ -1,3 +1,7 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 export interface Company {
   id: string;
   companyName: string; //MONGO id

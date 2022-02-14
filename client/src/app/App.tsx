@@ -1,3 +1,7 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React from 'react';
 import {ConstructionCompanies} from "./modules/companies/containers/ConstructionCompanies";
 import {CssBaseline} from "./shared/components/CssBaseline";

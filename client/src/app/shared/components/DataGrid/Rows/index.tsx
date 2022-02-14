@@ -1,8 +1,12 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {memo} from "react";
 import {DataGridProps, VisibleColumns} from "../index";
 import {Row} from "../Row";
 
-interface RowsProps<RowData> extends Pick<DataGridProps<RowData>, "rows" | "columns" | "getRowId"> {
+export interface RowsProps<RowData> extends Pick<DataGridProps<RowData>, "rows" | "columns" | "getRowId"> {
   visibleColumns: VisibleColumns;
 }
 

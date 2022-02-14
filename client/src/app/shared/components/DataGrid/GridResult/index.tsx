@@ -1,3 +1,7 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {memo} from 'react';
 import {createUseStyles} from "react-jss";
 

@@ -1,5 +1,16 @@
+/**
+ * @author Abhijit Baldawa
+ */
 import { useState, useEffect } from 'react'
 
+/**
+ * A custom hook which wraps the native 'fetch' function
+ * providing data, loading and error state for all supported response type
+ *
+ * @param input
+ * @param responseType
+ * @param init
+ */
 const useFetchOnce = <T>(
   input: RequestInfo,
   responseType: keyof Pick<Body, "json" | "blob" | "arrayBuffer" | "formData" | "text">,

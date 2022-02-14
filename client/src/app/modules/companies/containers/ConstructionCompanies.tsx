@@ -1,4 +1,8 @@
-import React, {useMemo} from 'react';
+/**
+ * @author Abhijit Baldawa
+ */
+
+import React, {useEffect, useMemo} from 'react';
 import {useFetchOnce} from "../../../shared/hooks/useFetchOnce";
 import {Company} from "../../../shared/models/company";
 import {COMPANIES_URL} from "../../../shared/constants/apiEndpoints/companies";
@@ -59,7 +63,7 @@ const ConstructionCompanies: React.FC = () => {
         fieldId: "country",
         headerName: "Country",
         width: "1fr",
-        type: "string",
+        type: "string", // We can explicitly specify the type of column
         sort: true,
         filter: true,
         cell: {
@@ -70,6 +74,17 @@ const ConstructionCompanies: React.FC = () => {
       }
     ]);
   }, [constructionCompanies]);
+
+  useEffect(() => {
+    if(error) {
+      /**
+       * This should be replaced with an error popup. Adding this here
+       * so that we still show user what went wrong
+       */
+      alert(`Error fetching construction companies list: ${error}`);
+    }
+  }, [error]);
+
 
   return (
     <DataGrid

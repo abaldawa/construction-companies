@@ -1,6 +1,16 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {useEffect, useState} from "react";
 
-export const useOutsideClick = (
+/**
+ * This hook detects whether the user has clicked outside or inside
+ * the observed DOM component.
+ *
+ * @param ref
+ */
+export const useDetectOutsideClick = (
   ref:  React.MutableRefObject<HTMLElement | null>
 ) => {
   const [clickedOutside, setClickedOutside] = useState<boolean>();

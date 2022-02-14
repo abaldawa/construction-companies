@@ -1,10 +1,17 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React from "react";
 import {Cell} from "../Cell";
-import type {DataGridProps, VisibleColumns} from "../index";
+import type {DataGridProps} from "../index";
+import {RowsProps} from "../Rows";
 
-interface RowProps<RowData> extends Pick<DataGridProps<RowData>, "columns">{
+export interface RowProps<RowData> extends
+  Pick<DataGridProps<RowData>, "columns">,
+  Pick<RowsProps<RowData>, "visibleColumns">
+{
   row: RowData;
-  visibleColumns: VisibleColumns;
 }
 
 export const Row = <RowData,>(props: RowProps<RowData>) => {
@@ -21,7 +28,6 @@ export const Row = <RowData,>(props: RowProps<RowData>) => {
           cell={column.cell}
           row={row}
           fieldId={column.fieldId}
-          width={column.width}
         />;
       } )}
     </>

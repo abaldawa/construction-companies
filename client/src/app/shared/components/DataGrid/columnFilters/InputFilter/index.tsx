@@ -1,3 +1,7 @@
+/**
+ * @author Abhijit Baldawa
+ */
+
 import React, {
   ChangeEvent,
   CSSProperties,
@@ -19,9 +23,24 @@ interface InputProps<InputType> extends Pick<InputHTMLAttributes<HTMLInputElemen
   type: SupportedInputTypes;
   onInputChange: OnInputChange<InputType>;
   style?: CSSProperties;
-  children?: never;
 }
 
+/**
+ * A general purpose input component which can be of @see SupportedInputTypes.
+ * It is a wrapper in native input component and provides additional functionality
+ * such as below:
+ *  1. Provides clear input function to programmatically clear the input
+ *  2. Handles the input changes to correct data type based on SupportedInputTypes
+ *  3. On UPDATE notifies the parent by 'field name', 'field value (correct data type)'
+ *     and a 'clear input' function.
+ *
+ * @param type - supported types for this input field
+ * @param name - name of this input field
+ * @param style - user provided style to be applied to input
+ * @param onInputChange - handle input changes
+ *
+ * @constructor
+ */
 export const Input = <InputType extends string | number | boolean>({
   type,
   name,

@@ -1,4 +1,8 @@
-import React, {CSSProperties, PropsWithChildren, useMemo, useState} from "react";
+/**
+ * @author Abhijit Baldawa
+ */
+
+import React, {CSSProperties, useMemo, useState} from "react";
 import {createUseStyles} from "react-jss";
 import {Rows} from "./Rows";
 import {ColumnHeadings} from "./ColumnHeadings";
@@ -7,6 +11,8 @@ import {useColumnSorter} from "./hooks/useColumnSOrter";
 import {GridToolbar} from "./GridToolbar";
 import {useEventCallback} from "../../hooks/useEventCallback";
 import {GridResultInfo} from "./GridResult";
+
+export type VisibleColumns = {[key: string]: string};
 
 export interface ColumFilter<RowData> {
   renderColumnFilter?: (onColumnFilter: (arg: any, clearFilter: () => void) => void) => JSX.Element;
@@ -40,14 +46,11 @@ export interface DataGridProps<RowData> {
   getRowId: (row: RowData) => string | number;
   loading?: boolean;
   fixedHeaderWhenScroll?: boolean;
-  children?: never;
 }
 
 interface DataGridStyleProps {
   gridColumnsWidth: Array<string | number>;
 }
-
-export type VisibleColumns = {[key: string]: string};
 
 const useStyles = createUseStyles({
   root: {
@@ -79,9 +82,13 @@ const useStyles = createUseStyles({
   }
 });
 
-export const DataGrid = <RowData,>(props: PropsWithChildren<DataGridProps<RowData>>) => {
+export const DataGrid = <RowData,>(props: DataGridProps<RowData>) => {
   const {columns, rows, loading, fixedHeaderWhenScroll, getRowId} = props;
 
+  /**
+   * 1. Setup all the data structure to find the columnName and columnId in the
+   *    most efficient way
+   */
   const {columnNames, columnNameToColumn, columnNameToFieldId} = useMemo(() => {
     const columnNames: string[] = [];
     const columnNameToColumn: VisibleColumns = {};
@@ -96,18 +103,44 @@ export const DataGrid = <RowData,>(props: PropsWithChildren<DataGridProps<RowDat
     return {columnNames, columnNameToColumn, columnNameToFieldId};
   }, [columns]);
 
+  /**
+   * 2. In the first render all columns are visible, and so we feed columnNameToColumn
+   *    to visibleColumns state
+   */
   const [visibleColumns, setVisibleColumns] = useState<VisibleColumns>(columnNameToColumn);
 
+  /**
+   * 3. We need the column width of visible columns and react when visibleColumns changes
+   */
   const gridColumnsWidth = useMemo(() => {
     return columns.map(c => {
       return visibleColumns[c.headerName] ? c.width : null
     }).filter(Boolean) as DataGridColumn<RowData>["width"][];
   }, [visibleColumns, columns]);
 
+  /**
+   * 4. Update the CSS grid about the number of visible grid columns and their width
+   */
   const classes = useStyles({gridColumnsWidth});
+
+  /**
+   * 5. With the knowledge of 'columns', 'rows' and 'visibleColumns' the filter custom hook
+   *    will give filtered rows which matched filtering criteria of ALL filters on the UI
+   */
   const {filteredRows, onFilterChange, totalFilters, clearFilters} = useColumnFilter({columns, rows, visibleColumns, columnNameToFieldId});
+
+  /**
+   * 6. Feed the 'filteredRows' to sorter custom hook so that it will sort all the rows
+   *    based on any active colum sorter.
+   */
   const {sortedRows, activeColumnSorter, onSortChange} = useColumnSorter(columns, filteredRows);
 
+  /**
+   * If the user tries to show/hide any column then this handler handles the event and updates
+   * the visible columns in the state and all the hooks will react accordingly to update data grid
+   *
+   * @param selectedColumns - Array of only visible columns based on user selection
+   */
   const onColumnShowOrHideHandler = useEventCallback((selectedColumns?: string[]) => {
     setVisibleColumns(selectedColumns ?
       selectedColumns.reduce((result, columnHeading) => {
