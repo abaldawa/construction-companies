@@ -89,6 +89,8 @@ const ConstructionCompanies: React.FC = () => {
   return (
     <DataGrid
       fixedHeaderWhenScroll
+      height={420}
+      width={800}
       columns={columns}
       rows={constructionCompanies}
       getRowId={(row) => row.id}

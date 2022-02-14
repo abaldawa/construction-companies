@@ -40,7 +40,7 @@ export interface DataGridColumn<RowData> {
   sort?: ColumnSorter<RowData> | boolean;
 }
 
-export interface DataGridProps<RowData> {
+export interface DataGridProps<RowData> extends Pick<DataGridStyleProps, "height" | "width">{
   columns: DataGridColumn<RowData>[];
   rows: RowData[];
   getRowId: (row: RowData) => string | number;
@@ -50,6 +50,8 @@ export interface DataGridProps<RowData> {
 
 interface DataGridStyleProps {
   gridColumnsWidth: Array<string | number>;
+  height?: number | string;
+  width?: number | string;
 }
 
 const useStyles = createUseStyles({
@@ -57,19 +59,17 @@ const useStyles = createUseStyles({
     display: "inline-block",
     position: "relative"
   },
-  dataGrid: {
+  dataGrid: (props: DataGridStyleProps) => ({
     display: "grid",
-    minHeight: "420px",
-    maxHeight: "420px",
-    minWidth: "900px",
-    gridTemplateColumns: (props: DataGridStyleProps) => props.gridColumnsWidth.join(" "),
+    height: props.height || "420px",
+    width: props.width || "900px",
+    gridTemplateColumns: props.gridColumnsWidth.join(" "),
     gridAutoRows: "max-content",
     border: "1px solid rgb(224, 224, 224)",
     borderRadius: "10px",
     overflow: "scroll",
-    position: "relative",
-    maxWidth: "900px"
-  },
+    position: "relative"
+  }),
   loading: {
     pointerEvents: "none",
     letterSpacing: "0.8rem",
@@ -83,7 +83,7 @@ const useStyles = createUseStyles({
 });
 
 export const DataGrid = <RowData,>(props: DataGridProps<RowData>) => {
-  const {columns, rows, loading, fixedHeaderWhenScroll, getRowId} = props;
+  const {columns, rows, loading, fixedHeaderWhenScroll, height, width, getRowId} = props;
 
   /**
    * 1. Setup all the data structure to find the columnName and columnId in the
@@ -121,7 +121,7 @@ export const DataGrid = <RowData,>(props: DataGridProps<RowData>) => {
   /**
    * 4. Update the CSS grid about the number of visible grid columns and their width
    */
-  const classes = useStyles({gridColumnsWidth});
+  const classes = useStyles({gridColumnsWidth, width, height});
 
   /**
    * 5. With the knowledge of 'columns', 'rows' and 'visibleColumns' the filter custom hook

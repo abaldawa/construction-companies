@@ -18,8 +18,9 @@ interface MultiSelectCheckboxProps {
 
 const useStyles = createUseStyles({
   container: {
+    position: "relative",
     border: "1px solid black",
-    position: "relative"
+    borderRadius: "3px"
   },
   selectionTextContainer: {
     textOverflow: "ellipsis",
@@ -30,6 +31,7 @@ const useStyles = createUseStyles({
     display: "flex",
     flexDirection: "column",
     alignItems: "start",
+    borderRadius: "0 0 3px 3px",
     listStyle: "none",
     background: "white",
     border: "1px solid",
