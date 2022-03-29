@@ -38,7 +38,7 @@ const useFetchOnce = <T>(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  return {data, loading, error};
+  return {data, loading, error, setData};
 }
 
 export { useFetchOnce };

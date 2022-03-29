@@ -10,7 +10,7 @@ import {DataGrid, DataGridColumn} from "../../../shared/components/DataGrid";
 import {MultiSelectCheckbox} from "../../../shared/components/UI/MultiSelectCheckBox";
 
 const ConstructionCompanies: React.FC = () => {
-  const {data: constructionCompanies = [], loading, error} = useFetchOnce<Company[]>(COMPANIES_URL, "json");
+  const {data: constructionCompanies = [], setData: setCompanies, loading, error} = useFetchOnce<Company[]>(COMPANIES_URL, "json");
 
   const columns = useMemo<DataGridColumn<Company>[]>(() => {
     const uniqueSpecialityColumn: string[] = [...new Set(constructionCompanies.map(c => c.speciality))].filter(Boolean);
@@ -20,9 +20,20 @@ const ConstructionCompanies: React.FC = () => {
         fieldId: "companyName",
         headerName: "Company",
         width: "2fr",
+        type: "string",
         sort: true,
         filter: true,
         cell: {
+          editable: true,
+          onEdited: (editedCompanyRow, fieldId, updatedCompanyName: string) => {
+            setCompanies(constructionCompanies.map(company => {
+              if(editedCompanyRow.id === company.id) {
+                return {...company, companyName: updatedCompanyName};
+              }
+
+              return company;
+            }));
+          },
           renderCell: (company) => {
             return (
               <div style={{display: "flex", alignItems: "center"}}>
@@ -42,7 +53,20 @@ const ConstructionCompanies: React.FC = () => {
         fieldId: "speciality",
         headerName: "Speciality",
         width: "1fr",
+        type: "string",
         sort: true,
+        cell: {
+          editable: true,
+          onEdited: (editedCompanyRow, fieldId, updatedSpeciality: string) => {
+            setCompanies(constructionCompanies.map(company => {
+              if(editedCompanyRow.id === company.id) {
+                return {...company, speciality: updatedSpeciality};
+              }
+
+              return company;
+            }));
+          }
+        },
         filter: {
           filterData: (company, checkedSpecialities: string[]) => {
             if(company.speciality) {

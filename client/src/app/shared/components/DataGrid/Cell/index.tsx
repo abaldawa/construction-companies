@@ -60,19 +60,19 @@ export const Cell = <RowData,>(props: CellProps<RowData>) => {
      * show the original field from the row object
      */
     cellValue = cell?.valueGetter?.(row) ?? row[fieldId];
+  }
 
-    if(cell?.editable && showEditableCell) {
-      cellValue = <input
-        ref={r=> r?.focus()}
-        value={editableText}
-        onBlur={() => {
-          cell.onEdited?.(row, fieldId, editableText);
-          setShowEditableCell(false);
-        }}
-        style={{width: "100%"}}
-        onChange={e => setEditableText(e.target.value)}
-      />;
-    }
+  if(cell?.editable && showEditableCell) {
+    cellValue = <input
+      ref={r=> r?.focus()}
+      value={editableText}
+      onBlur={() => {
+        cell.onEdited?.(row, fieldId, editableText);
+        setShowEditableCell(false);
+      }}
+      style={{width: "100%"}}
+      onChange={e => setEditableText(e.target.value)}
+    />;
   }
 
   useEffect(() => {
