@@ -11,11 +11,11 @@ import {useCallback, useRef} from "react";
  *
  * @param callback - user provided callback to call
  */
-export const useEventCallback = <T extends (...args: any[]) => void>(callback: T): T => {
+export const useEventCallback = <T extends (...args: any[]) => any>(callback: T): T => {
   const funRef = useRef(callback);
   funRef.current = callback;
 
   return useCallback((...args: any[]) => {
-    funRef.current(...args);
+    return funRef.current(...args);
   }, []) as T;
 };
